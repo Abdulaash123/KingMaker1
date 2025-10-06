@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>KingMaker Admin</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>KingMaker Admin Panel</h1>
+<h2>Admin Login</h2>
+<input type="text" id="adminUser" placeholder="Username">
+<input type="password" id="adminPass" placeholder="Password">
+<button onclick="adminLogin()">Login</button>
+<div id="adminArea" style="display:none;">
+<h2>Users</h2>
+<div id="userList"></div>
+<h2>Update User Balance</h2>
+<input type="text" id="targetUser" placeholder="Username">
+<input type="number" id="amount" placeholder="Amount">
+<button onclick="updateBalance()">Update Balance</button>
+<h2>Withdrawal Lock</h2>
+<button onclick="lockAll()">Lock All Withdrawals</button>
+<button onclick="unlockAll()">Unlock All Withdrawals</button>
+<h2>Customer Messages</h2>
+<div id="messages"></div>
+</div>
+<script src="admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+body { font-family: Arial; background-color: #121212; color: #fff; text-align: center; padding:20px;}
+input, button { padding:10px; margin:5px; border-radius:5px; border:none;}
+button { background-color:#f39c12; color:#fff; cursor:pointer;}
+button:hover { background-color:#e67e22;}
+h1, h2 { color:#f1c40f;}
+#auth { margin-top:50px; }
